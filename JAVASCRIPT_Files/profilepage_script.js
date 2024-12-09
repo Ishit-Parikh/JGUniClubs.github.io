@@ -4,91 +4,91 @@ const members = [
     name: "Shreya Bavaliya",
     role: "President of Technical Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Shreya.jpg"
+    photo: "./images/Profile_image/Shreya.jpg"
   },
   {
     name: "Sabiha Talat ",
     role: "President of AI CLub",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Sabiha.jpg"
+    photo: "./images/Profile_image/Sabiha.jpg"
   },
   {
     name: "Divya Patel ",
     role: "Vice President At AI Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Divya.jpg"
+    photo: "./images/Profile_image/Divya.jpg"
   },
   {
     name: "Aesha Balar",
     role: "Vice President At Cultural Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Aesha.jpg"
+    photo: "./images/Profile_image/Aesha.jpg"
   },
   {
     name: "Ritu Patel",
     role: "Fund Raiser At AI Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Ritu.jpg"
+    photo: "./images/Profile_image/Ritu.jpg"
   },
   {
     name: "Yashvi Patel",
     role: "President of Cultural Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Yashvi.jpg"
+    photo: "./images/Profile_image/Yashvi.jpg"
   },
   {
     name: "Freya Mistry",
     role: "Event Manager At AI Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Freya.jpg"
+    photo: "./images/Profile_image/Freya.jpg"
   },
   {
     name: "Rudra Bhatt",
     role: "Vice President At Coding Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Rudra.jpg"
+    photo: "./images/Profile_image/Rudra.jpg"
   },
   {
     name: "Aryan Patel",
     role: "President of Coding Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Aryan.jpg"
+    photo: "./images/Profile_image/Aryan.jpg"
   },
   {
     name: "Dhrumil Soni",
     role: "President of Environment Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Dhrumil.jpg"
+    photo: "./images/Profile_image/Dhrumil.jpg"
   },
   {
     name: "Ishit Parikh",
     role: "Passive Member At AI Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Ishit.jpg"
+    photo: "./images/Profile_image/Ishit.jpg"
   },
   {
     name: "Manav Patel ",
     role: "Event Manager At Cultural Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Manav.jpg"
+    photo: "./images/Profile_image/Manav.jpg"
   },
   {
     name: "Anuj Dulera",
     role: "Fund Raiser At Environment Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Anuj.jpg"
+    photo: "./images/Profile_image/Anuj.jpg"
   },
   {
     name: "Jay Thakkar",
     role: "Active Member At Cultural Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Jay.jpg"
+    photo: "./images/Profile_image/Jay.jpg"
   },
   {
     name: "Om Thakkar",
     role: "Passive Member At Environment Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "/images/Profile_image/Om.jpg"
+    photo: "./images/Profile_image/Om.jpg"
   }
 ];
 
