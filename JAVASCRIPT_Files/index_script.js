@@ -11,10 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const floatingIconsContainer = document.querySelector('.floating-icons');
     const iconSources = [
-        '../images/index_images/icons/book-icon-png.png',
-        '../images/index_images/icons/guitar-icon-png.png',
-        '../images/index_images/icons/tech-icon-png.png',
+        './images/index_images/icons/book-icon-png.png',
+        './images/index_images/icons/guitar-icon-png.png',
+        './images/index_images/icons/tech-icon-png.png',
     ];
+    
     
     const numberOfIcons = 10; // Adjust the number of icons
     const containerWidth = 100; // Container width percentage
@@ -96,9 +97,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function gotoClubs() {
-    window.location.href = "./HTML_Files/description.html";
+    window.location.href = "./description.html"; // Direct link based on hosted files
 }
 
 function gotoSponser() {
-    window.location.href = "./HTML_Files/sponser.html";
+    window.location.href = "./sponser.html"; // Direct link based on hosted files
 }
+
