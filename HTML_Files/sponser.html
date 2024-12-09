@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS_Files/sponser_style.css">
+  <title>JG clubs or events Sponsorship</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="description.html">Clubs</a></li>
+      <li><a href="sponser.html">Sponsors</a></li>
+      <li><a href="payment.html">Payment</a></li>
+      <li><a href="profilepage.html">Members</a></li>
+    </ul>
+
+    <div class="logo">
+      <img src="/images/index_images/jg-logo.png" alt="JGCT Logo">
+    </div>
+  </nav>
+  <header class="header">
+    <h1>JG clubs or events Sponsorship Page</h1>
+  </header>
+  <main class="main-content">
+
+    <!-- Why You Should Sponsor Section -->
+    <section class="why-sponsor">
+      <h3>Why You Should Sponsor JG University Clubs</h3>
+      <ul>
+        <li>Gain exposure to a vibrant and diverse student community.</li>
+        <li>Support the growth and development of student talents and initiatives.</li>
+        <li>Increase your brand's visibility at university events and online.</li>
+        <li>Contribute to building a positive, active, and engaging campus culture.</li>
+        <li>Benefit from marketing opportunities across multiple student-run channels.</li>
+        <li>Be a part of impactful events that resonate with future leaders.</li>
+      </ul>
+    </section>
+
+    <section class="form-container">
+      <h2>Support Our Clubs and Events</h2>
+      <form id="sponsorshipForm">
+        <div class="form-group">
+          <label for="name">Your Name/organization:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="clubOrEvent">Club/Event to Sponsor:</label>
+          <select id="clubOrEvent" name="clubOrEvent" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="sports">Sports Club</option>
+            <option value="music">Music Club</option>
+            <option value="coding">Coding Club</option>
+            <option value="cultural">Cultural Events</option>
+            <option value="JG Y.C.F">Freshers Event</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message/Inquiry:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="successMessage" class="hidden">Thank you for your support! We will get in touch soon.</div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2024 JG University Clubs</p>
+  </footer>
+  <script src="../JAVASCRIPT_Files/sponser_script.js"></script>
+</body>
+
+</html>
