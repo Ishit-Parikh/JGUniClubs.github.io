@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const floatingIconsContainer = document.querySelector('.floating-icons');
     const iconSources = [
-        './images/index_images/icons/book-icon-png.png',
-        './images/index_images/icons/guitar-icon-png.png',
-        './images/index_images/icons/tech-icon-png.png',
+        '../images/index_images/icons/book-icon-png.png',
+        '../images/index_images/icons/guitar-icon-png.png',
+        '../images/index_images/icons/tech-icon-png.png',
     ];
     
     
