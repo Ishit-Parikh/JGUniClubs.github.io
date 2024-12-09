@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const floatingIconsContainer = document.querySelector('.floating-icons');
     const iconSources = [
-        '../images/index_images/icons/book-icon-png.png',
-        '../images/index_images/icons/guitar-icon-png.png',
-        '../images/index_images/icons/tech-icon-png.png',
+        './images/index_images/icons/book-icon-png.png',
+        './images/index_images/icons/guitar-icon-png.png',
+        './images/index_images/icons/tech-icon-png.png',
     ];
     
     
@@ -97,10 +97,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function gotoClubs() {
-    window.location.href = "./description.html"; // Direct link based on hosted files
+    window.location.href = "./HTML_Files/description.html";
 }
 
 function gotoSponser() {
-    window.location.href = "./sponser.html"; // Direct link based on hosted files
+    window.location.href = "./HTML_Files/sponser.html";
 }
-
