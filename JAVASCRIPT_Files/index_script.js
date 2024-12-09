@@ -95,9 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function gotoClubs() {
-    window.location.href = "../HTML_Files/description.html"; // Replace with the page you want to redirect to
+    window.location.href = "./HTML_Files/description.html"; // Replace with the page you want to redirect to
 }
 
 function gotoSponser() {
-    window.location.href = "../HTML_Files/sponser.html"; // Replace with the page you want to redirect to
+    window.location.href = "./HTML_Files/sponser.html"; // Replace with the page you want to redirect to
 }
