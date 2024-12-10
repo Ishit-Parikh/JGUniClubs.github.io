@@ -40,7 +40,7 @@ const members = [
     name: "Freya Mistry",
     role: "Event Manager At AI Club",
     description: "Branch: IT Semester: 3rd",
-    photo: "../images/Profile_image/Freya.jpg"
+    photo: "../images/Profile_image/Freya.JPG"
   },
   {
     name: "Rudra Bhatt",
